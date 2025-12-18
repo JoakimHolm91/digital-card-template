@@ -24,7 +24,7 @@ steps:
       git remote remove github 2>/dev/null || true
       git remote add github "$AUTH_URL"
 
-      git push github HEAD:main --force
+      git push github HEAD:refs/heads/main --force
     displayName: "Mirror to GitHub"
     env:
       GITHUB_TOKEN: $(GITHUB_TOKEN)
