@@ -45,4 +45,9 @@ export interface RestaurantCustomer {
     facebook?: string;
     tiktok?: string;
   };
+  theme: {
+    background: string;
+    card: string;
+    accent: string;
+  };
 }

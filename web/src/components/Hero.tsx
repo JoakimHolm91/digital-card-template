@@ -4,9 +4,17 @@ import { RestaurantCustomer } from "../types/restaurant";
 
 interface HeroProps {
   customer: RestaurantCustomer;
+  themeClasses?: {
+    background: string;
+    card: string;
+    accent: string;
+    textOnBackground: string;
+    textOnCard: string;
+    accentText: string;
+  };
 }
 
-export default function Hero({ customer }: HeroProps) {
+export default function Hero({ customer, themeClasses }: HeroProps) {
   return (
     <section className="relative h-96 md:h-[500px] flex items-center justify-center text-center text-white">
       <img
@@ -21,7 +29,7 @@ export default function Hero({ customer }: HeroProps) {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href={customer.primaryCtaUrl}
-            className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold"
+            className={`${themeClasses?.accent || 'bg-red-600'} hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold`}
           >
             {customer.primaryCtaText}
           </Link>

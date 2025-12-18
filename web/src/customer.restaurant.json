@@ -96,5 +96,10 @@
   "socialLinks": {
     "instagram": "https://instagram.com/barholm",
     "facebook": "https://facebook.com/barholm"
+  },
+  "theme": {
+    "background": "zinc-900",
+    "card": "white",
+    "accent": "red-600"
   }
 }
