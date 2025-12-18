@@ -1,0 +1,100 @@
+{
+  "name": "Bella Vista Bistro",
+  "tagline": "Authentic Italian Cuisine in the Heart of the City",
+  "heroImage": "/next.svg",
+  "primaryCtaText": "Book a Table",
+  "primaryCtaUrl": "#book",
+  "secondaryCtaText": "View Menu",
+  "secondaryCtaUrl": "/menu",
+  "phone": "+1-234-567-8900",
+  "email": "info@bellavistabistro.com",
+  "address": "123 Main Street",
+  "city": "New York, NY",
+  "googleMapsUrl": "https://maps.google.com/?q=123+Main+Street+New+York+NY",
+  "openingHours": {
+    "monday": "Closed",
+    "tuesday": "5:00 PM - 10:00 PM",
+    "wednesday": "5:00 PM - 10:00 PM",
+    "thursday": "5:00 PM - 10:00 PM",
+    "friday": "5:00 PM - 11:00 PM",
+    "saturday": "12:00 PM - 11:00 PM",
+    "sunday": "12:00 PM - 9:00 PM",
+    "specialNote": "Happy Hour: Mon-Fri 5-7 PM"
+  },
+  "featuredItems": [
+    {
+      "name": "Margherita Pizza",
+      "description": "Fresh mozzarella, basil, and tomato sauce on thin crust",
+      "price": "$16"
+    },
+    {
+      "name": "Osso Buco",
+      "description": "Slow-braised veal shanks with risotto alla Milanese",
+      "price": "$28"
+    },
+    {
+      "name": "Tiramisu",
+      "description": "Classic Italian dessert with coffee-soaked ladyfingers",
+      "price": "$8"
+    }
+  ],
+  "menuSections": [
+    {
+      "title": "Appetizers",
+      "items": [
+        {
+          "name": "Bruschetta",
+          "description": "Toasted bread topped with tomatoes, garlic, and basil",
+          "price": "$10"
+        },
+        {
+          "name": "Antipasto Platter",
+          "description": "Selection of cured meats, cheeses, and olives",
+          "price": "$18"
+        }
+      ]
+    },
+    {
+      "title": "Main Courses",
+      "items": [
+        {
+          "name": "Spaghetti Carbonara",
+          "description": "Pasta with pancetta, eggs, and Pecorino Romano",
+          "price": "$20"
+        },
+        {
+          "name": "Grilled Salmon",
+          "description": "Fresh salmon with lemon herb sauce and vegetables",
+          "price": "$24"
+        }
+      ]
+    },
+    {
+      "title": "Desserts",
+      "items": [
+        {
+          "name": "Panna Cotta",
+          "description": "Vanilla custard with berry compote",
+          "price": "$7"
+        }
+      ]
+    }
+  ],
+  "galleryImages": ["/next.svg", "/vercel.svg", "/file.svg"],
+  "reviews": [
+    {
+      "author": "John D.",
+      "text": "Amazing food and atmosphere! The pasta was perfect.",
+      "rating": 5
+    },
+    {
+      "author": "Sarah L.",
+      "text": "Great service and delicious wine selection.",
+      "rating": 5
+    }
+  ],
+  "socialLinks": {
+    "instagram": "https://instagram.com/bellavistabistro",
+    "facebook": "https://facebook.com/bellavistabistro"
+  }
+}
