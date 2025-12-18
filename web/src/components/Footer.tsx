@@ -14,7 +14,7 @@ export default function Footer({ customer }: FooterProps) {
             <p className="text-gray-400">{customer.tagline}</p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
+            <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
             <p className="text-gray-400">
               {customer.address}, {customer.city}
             </p>
@@ -26,7 +26,7 @@ export default function Footer({ customer }: FooterProps) {
             )}
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+            <h3 className="text-lg font-semibold mb-4">Följ oss</h3>
             <div className="flex space-x-4">
               {customer.socialLinks.instagram && (
                 <a

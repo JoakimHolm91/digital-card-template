@@ -15,13 +15,13 @@ export default function Navbar({ customer }: NavbarProps) {
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-700 hover:text-gray-900">
-              Home
+              Hem
             </Link>
             <Link href="/menu" className="text-gray-700 hover:text-gray-900">
-              Menu
+              Meny
             </Link>
             <a href="#find-us" className="text-gray-700 hover:text-gray-900">
-              Find Us
+              Hitta oss
             </a>
           </div>
           <div className="md:hidden">

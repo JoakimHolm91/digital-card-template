@@ -10,7 +10,7 @@ export default function QuickInfo({ customer }: QuickInfoProps) {
     .toLowerCase();
   const hours =
     customer.openingHours[today as keyof typeof customer.openingHours] ||
-    "Closed";
+    "Stängt";
 
   return (
     <section className="bg-gray-100 py-8">
@@ -18,7 +18,7 @@ export default function QuickInfo({ customer }: QuickInfoProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           <div>
             <h3 className="text-lg font-semibold text-gray-900">
-              Today's Hours
+              Dagens öppettider
             </h3>
             <p className="text-gray-700">{hours}</p>
             {customer.openingHours.specialNote && (
@@ -28,13 +28,13 @@ export default function QuickInfo({ customer }: QuickInfoProps) {
             )}
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-gray-900">Address</h3>
+            <h3 className="text-lg font-semibold text-gray-900">Adress</h3>
             <p className="text-gray-700">
               {customer.address}, {customer.city}
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
+            <h3 className="text-lg font-semibold text-gray-900">Telefon</h3>
             <a
               href={`tel:${customer.phone}`}
               className="text-gray-700 hover:text-gray-900"

@@ -1,81 +1,81 @@
 {
-  "name": "Bella Vista Bistro",
-  "tagline": "Authentic Italian Cuisine in the Heart of the City",
+  "name": "Bar Holm",
+  "tagline": "Välkomnande bar i hjärtat av staden",
   "heroImage": "/next.svg",
-  "primaryCtaText": "Book a Table",
+  "primaryCtaText": "Boka bord",
   "primaryCtaUrl": "#book",
-  "secondaryCtaText": "View Menu",
+  "secondaryCtaText": "Se meny",
   "secondaryCtaUrl": "/menu",
-  "phone": "+1-234-567-8900",
-  "email": "info@bellavistabistro.com",
-  "address": "123 Main Street",
-  "city": "New York, NY",
-  "googleMapsUrl": "https://maps.google.com/?q=123+Main+Street+New+York+NY",
+  "phone": "+46-70-123-4567",
+  "email": "info@barholm.se",
+  "address": "Klareborgsgatan 32a",
+  "city": "Stockholm",
+  "googleMapsUrl": "https://maps.google.com/?q=Klareborgsgatan+32a+Stockholm",
   "openingHours": {
-    "monday": "Closed",
-    "tuesday": "5:00 PM - 10:00 PM",
-    "wednesday": "5:00 PM - 10:00 PM",
-    "thursday": "5:00 PM - 10:00 PM",
-    "friday": "5:00 PM - 11:00 PM",
-    "saturday": "12:00 PM - 11:00 PM",
-    "sunday": "12:00 PM - 9:00 PM",
-    "specialNote": "Happy Hour: Mon-Fri 5-7 PM"
+    "monday": "Stängt",
+    "tuesday": "17:00 - 23:00",
+    "wednesday": "17:00 - 23:00",
+    "thursday": "17:00 - 23:00",
+    "friday": "17:00 - 01:00",
+    "saturday": "12:00 - 01:00",
+    "sunday": "12:00 - 22:00",
+    "specialNote": "Happy Hour: Mån-Fre 17-19"
   },
   "featuredItems": [
     {
-      "name": "Margherita Pizza",
-      "description": "Fresh mozzarella, basil, and tomato sauce on thin crust",
-      "price": "$16"
+      "name": "Klassisk Mojito",
+      "description": "Fräsch mynta, lime, rom och sodavatten",
+      "price": "95 kr"
     },
     {
-      "name": "Osso Buco",
-      "description": "Slow-braised veal shanks with risotto alla Milanese",
-      "price": "$28"
+      "name": "Barens Burgare",
+      "description": "Saftig hamburgare med ost, sallad och pommes",
+      "price": "145 kr"
     },
     {
-      "name": "Tiramisu",
-      "description": "Classic Italian dessert with coffee-soaked ladyfingers",
-      "price": "$8"
+      "name": "Chokladmousse",
+      "description": "Krämig chokladmousse med bär",
+      "price": "75 kr"
     }
   ],
   "menuSections": [
     {
-      "title": "Appetizers",
+      "title": "Drycker",
       "items": [
         {
-          "name": "Bruschetta",
-          "description": "Toasted bread topped with tomatoes, garlic, and basil",
-          "price": "$10"
+          "name": "Öl från fat",
+          "description": "Lokalt bryggt öl på fat",
+          "price": "65 kr"
         },
         {
-          "name": "Antipasto Platter",
-          "description": "Selection of cured meats, cheeses, and olives",
-          "price": "$18"
+          "name": "Vinlista",
+          "description": "Utvalda viner från olika regioner",
+          "price": "Från 85 kr"
         }
       ]
     },
     {
-      "title": "Main Courses",
+      "title": "Mat",
       "items": [
         {
-          "name": "Spaghetti Carbonara",
-          "description": "Pasta with pancetta, eggs, and Pecorino Romano",
-          "price": "$20"
+          "name": "Nachos",
+          "description": "Krispiga nachos med ost, jalapeños och salsa",
+          "price": "125 kr"
         },
         {
-          "name": "Grilled Salmon",
-          "description": "Fresh salmon with lemon herb sauce and vegetables",
-          "price": "$24"
+          "name": "Fisk och skaldjur",
+          "description": "Färsk fisk med citron och örter",
+          "price": "165 kr"
         }
       ]
     },
     {
-      "title": "Desserts",
+      "title": "Efterrätt",
       "items": [
         {
-          "name": "Panna Cotta",
-          "description": "Vanilla custard with berry compote",
-          "price": "$7"
+          "name": "Tiramisu",
+          "description": "Klassisk italiensk dessert med kaffe och mascarpone",
+          "price": "85 kr"
         }
       ]
     }
@@ -83,18 +83,18 @@
   "galleryImages": ["/next.svg", "/vercel.svg", "/file.svg"],
   "reviews": [
     {
-      "author": "John D.",
-      "text": "Amazing food and atmosphere! The pasta was perfect.",
+      "author": "Anna K.",
+      "text": "Fantastisk atmosfär och goda drinkar! Rekommenderar starkt.",
       "rating": 5
     },
     {
-      "author": "Sarah L.",
-      "text": "Great service and delicious wine selection.",
+      "author": "Erik L.",
+      "text": "Bra service och utmärkt vinutbud.",
       "rating": 5
     }
   ],
   "socialLinks": {
-    "instagram": "https://instagram.com/bellavistabistro",
-    "facebook": "https://facebook.com/bellavistabistro"
+    "instagram": "https://instagram.com/barholm",
+    "facebook": "https://facebook.com/barholm"
   }
 }
