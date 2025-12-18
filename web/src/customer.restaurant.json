@@ -9,8 +9,8 @@
   "phone": "+46-70-123-4567",
   "email": "info@barholm.se",
   "address": "Klareborgsgatan 32a",
-  "city": "Stockholm",
-  "googleMapsUrl": "https://maps.google.com/?q=Klareborgsgatan+32a+Stockholm",
+  "city": "Göteborg",
+  "googleMapsUrl": "https://maps.google.com/?q=Klareborgsgatan+32a+Göteborg",
   "openingHours": {
     "monday": "Stängt",
     "tuesday": "17:00 - 23:00",
