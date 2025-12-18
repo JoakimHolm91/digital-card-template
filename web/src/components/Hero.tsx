@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { RestaurantCustomer } from '../types/restaurant';
+import Image from "next/image";
+import Link from "next/link";
+import { RestaurantCustomer } from "../types/restaurant";
 
 interface HeroProps {
   customer: RestaurantCustomer;

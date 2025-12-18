@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { RestaurantCustomer } from '../types/restaurant';
+import Link from "next/link";
+import { RestaurantCustomer } from "../types/restaurant";
 
 interface NavbarProps {
   customer: RestaurantCustomer;
@@ -14,9 +14,15 @@ export default function Navbar({ customer }: NavbarProps) {
             {customer.name}
           </Link>
           <div className="hidden md:flex space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-gray-900">Home</Link>
-            <Link href="/menu" className="text-gray-700 hover:text-gray-900">Menu</Link>
-            <a href="#find-us" className="text-gray-700 hover:text-gray-900">Find Us</a>
+            <Link href="/" className="text-gray-700 hover:text-gray-900">
+              Home
+            </Link>
+            <Link href="/menu" className="text-gray-700 hover:text-gray-900">
+              Menu
+            </Link>
+            <a href="#find-us" className="text-gray-700 hover:text-gray-900">
+              Find Us
+            </a>
           </div>
           <div className="md:hidden">
             {/* Hamburger menu placeholder */}
