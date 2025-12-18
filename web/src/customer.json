@@ -1,0 +1,8 @@
+{
+  "name": "John Doe",
+  "tagline": "Professional Services",
+  "phone": "+1-234-567-8900",
+  "email": "john.doe@example.com",
+  "services": ["Web Development", "Consulting", "Design"],
+  "city": "New York"
+}
