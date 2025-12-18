@@ -15,11 +15,10 @@ export default function Gallery({ customer }: GalleryProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {customer.galleryImages.map((image, index) => (
             <div key={index} className="aspect-square relative">
-              <Image
+              <img
                 src={image}
                 alt={`Gallery image ${index + 1}`}
-                fill
-                className="object-cover rounded-lg"
+                className="absolute inset-0 w-full h-full object-cover rounded-lg"
               />
             </div>
           ))}
