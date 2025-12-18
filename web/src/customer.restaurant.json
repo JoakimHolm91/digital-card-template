@@ -1,7 +1,7 @@
 {
   "name": "Bar Holm",
   "tagline": "Välkomnande bar i hjärtat av staden",
-  "heroImage": "/next.svg",
+  "heroImage": "/images/hero.jpg",
   "primaryCtaText": "Boka bord",
   "primaryCtaUrl": "#book",
   "secondaryCtaText": "Se meny",
@@ -80,7 +80,7 @@
       ]
     }
   ],
-  "galleryImages": ["/next.svg", "/vercel.svg", "/file.svg"],
+  "galleryImages": ["/images/bild1.jpeg", "/images/bild2.jpg", "/images/bild3.jpg"],
   "reviews": [
     {
       "author": "Anna K.",
