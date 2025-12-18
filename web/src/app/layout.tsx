@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import customer from "../customer.restaurant.json";
+import { getThemeClasses } from "../theme/themeClasses";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +14,8 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const themeClasses = getThemeClasses(customer.theme);
 
 export const metadata: Metadata = {
   title: customer.name,
@@ -27,9 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen ${themeClasses.pageBg} ${themeClasses.pageText}`}
       >
-        <Navbar customer={customer} />
+        <Navbar customer={customer} themeClasses={themeClasses} />
         {children}
       </body>
     </html>

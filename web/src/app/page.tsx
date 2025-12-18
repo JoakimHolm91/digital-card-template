@@ -6,19 +6,19 @@ import Reviews from "../components/Reviews";
 import FindUs from "../components/FindUs";
 import Footer from "../components/Footer";
 import customer from "../customer.restaurant.json";
-import { getThemeClasses } from "../utils/theme";
+import { getThemeClasses } from "../theme/themeClasses";
 
 const themeClasses = getThemeClasses(customer.theme);
 
 export default function Home() {
   return (
-    <main className={themeClasses.background}>
+    <main>
       <Hero customer={customer} themeClasses={themeClasses} />
-      <QuickInfo customer={customer} themeClasses={themeClasses} />
+      <QuickInfo customer={customer} />
       <FeaturedItems customer={customer} themeClasses={themeClasses} />
-      <Gallery customer={customer} />
+      <Gallery customer={customer} themeClasses={themeClasses} />
       <Reviews customer={customer} themeClasses={themeClasses} />
-      <FindUs customer={customer} />
+      <FindUs customer={customer} themeClasses={themeClasses} />
       <Footer customer={customer} />
     </main>
   );

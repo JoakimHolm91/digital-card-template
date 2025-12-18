@@ -80,7 +80,11 @@
       ]
     }
   ],
-  "galleryImages": ["/images/bild1.jpeg", "/images/bild2.jpg", "/images/bild3.jpg"],
+  "galleryImages": [
+    "/images/bild1.jpeg",
+    "/images/bild2.jpg",
+    "/images/bild3.jpg"
+  ],
   "reviews": [
     {
       "author": "Anna K.",
@@ -99,7 +103,7 @@
   },
   "theme": {
     "background": "zinc-900",
-    "card": "white",
+    "card": "cream",
     "accent": "red-600"
   }
 }

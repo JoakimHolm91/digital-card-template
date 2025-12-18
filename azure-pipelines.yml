@@ -1,0 +1,31 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  - group: GITHUB
+
+steps:
+  - checkout: self
+    fetchDepth: "0"
+
+  - script: |
+      set -e
+
+      git config user.email "build@azuredevops.local"
+      git config user.name "azure-pipelines"
+
+      AUTH_URL=$(echo "$GITHUB_REPO_URL" | sed "s#https://#https://$GITHUB_TOKEN@#")
+
+      git remote remove github 2>/dev/null || true
+      git remote add github "$AUTH_URL"
+
+      git push github HEAD:main --force
+    displayName: "Mirror to GitHub"
+    env:
+      GITHUB_TOKEN: $(GITHUB_TOKEN)
+      GITHUB_REPO_URL: $(GITHUB_REPO_URL)
