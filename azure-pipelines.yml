@@ -7,7 +7,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  - group: GITHUB
+  - group: GITHUB_SHARED
 
 steps:
   - checkout: self

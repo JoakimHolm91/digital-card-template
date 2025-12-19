@@ -12,7 +12,7 @@ export default function FeaturedItems({
   themeClasses,
 }: FeaturedItemsProps) {
   return (
-    <section className="relative py-12 min-h-[400px]">
+    <section className="relative py-12 min-h-100">
       <Image
         src="/images/hero2.jpg"
         alt="Featured items background"
